@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/logo3.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link for Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Pine City Zoo | Contact</title>
+  </head>
+  <body>
+    <!-- Start of Pine City Zoo Fixed Navbar -->
+    <div class="navbarContainer">
+      <div class="nav_frame widthContainer">
+        <div class="flexContainer">
+          <div class="nav_img">
+            <a href="index.html"><img src="images/logo3.png" /></a>
+            <div id="clickMenu">
+              <i class="bx bx-menu" onclick="changeIcon(this)"></i>
+            </div>
+          </div>
+          <div class="nav_content">
+            <div class="nav_item">
+              <div class="nav_anchorDiv">
+                <div class="nav_anchors">
+                  <a href="index.html">Home</a>
+                </div>
+                <div class="nav_anchors">
+                  <a href="javascript:void(0)">Explore</a>
+                  <div class="dropdown">
+                    <a href="#">Our Animals</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Conservation</a>
+                    <a href="#">Our Blog</a>
+                    <a href="#">Guiding Tours</a>
+                    <a href="#">Attractions</a>
+                    <a href="index.html#zooMap">Zoo Map</a>
+                  </div>
+                </div>
+                <div class="nav_anchors">
+                  <a href="javascript:void(0)">Events</a>
+                  <div class="dropdown">
+                    <a href="#">Youth Programs</a>
+                    <a href="#">Upcoming Events</a>
+                    <a href="#">School Events</a>
+                    <a href="#">Zoo Camps</a>
+                  </div>
+                </div>
+                <div class="nav_anchors">
+                  <a href="javascript:void(0)">Donate</a>
+                  <div class="dropdown">
+                    <a href="#">Donate to Society</a>
+                    <a href="#">Donate to Conservation</a>
+                    <a href="#">Planned Giving</a>
+                    <a href="#">Volunteer at the Zoo</a>
+                  </div>
+                </div>
+                <div class="nav_anchors">
+                  <a href="javascript:void(0)">About</a>
+                  <div class="dropdown">
+                    <a href="#">History</a>
+                    <a href="#">Future Plans</a>
+                    <a href="#">Jobs/Internships</a>
+                    <a href="#">Leadership</a>
+                    <a href="#">Membership Information</a>
+                    <a href="#">Membership FAQ</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Privacy Policy</a>
+                  </div>
+                </div>
+                <div class="nav_anchors">
+                  <a href="contact.html" id="noBorder" class="active"
+                    >Contact</a
+                  >
+                </div>
+              </div>
+              <div class="nav_search">
+                <input type="search" placeholder="Type to search..." />
+              </div>
+            </div>
+            <div class="nav_links">
+              <a href="#">Login</a>
+              <a href="#">Signup</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Start of Fixed Bottom Navbar -->
+      <div class="bottom_navbar">
+        <div class="widthContainer">
+          <div class="bottom_frame">
+            <a href="#">Feedback</a>
+            <a href="#">Weather</a>
+          </div>
+        </div>
+      </div>
+      <!-- End of Fixed Bottom Navbar -->
+    </div>
+    <!-- End of Fixed Navbar -->
+    <!-- Start of Social Media Links -->
+    <div class="social_links">
+      <a href="#"> <i class="bx bxl-whatsapp"></i></a>
+      <a href="#"><i class="bx bxl-facebook"></i></a>
+      <a href="#"><i class="bx bxl-linkedin"></i></a>
+      <a href="#"><i class="bx bxl-instagram"></i></a>
+    </div>
+    <!-- End of Social Media Links  -->
+
+    <!-- Start of Form Container -->
+    <div class="formContainer">
+      <div class="form_frame widthContainer">
+        <div class="form_content">
+          <form>
+            <input
+              type="text"
+              name="surname"
+              placeholder="Enter last name here..."
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter email here..."
+            />
+            <textarea
+              name="message"
+              placeholder="Type message here..."
+            ></textarea>
+            <div class="formBtn">
+              <button type="submit" class="activeBtn">Send</button>
+              <button type="reset">Clear</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End of Form Container -->
+    <script src="script.js"></script>
+  </body>
+</html>

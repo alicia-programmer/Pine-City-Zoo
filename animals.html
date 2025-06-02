@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/logo3.png" type="image/x-icon" />
+    <link rel="stylesheet" href="animals.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link for Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Pine City Zoo</title>
+  </head>
+  <body>
+    <!-- Start of Pine City Zoo Fixed Navbar -->
+    <div class="navbarContainer">
+      <div class="nav_frame widthContainer">
+        <div class="flexContainer">
+          <div class="nav_img">
+            <a href="index.html"><img src="images/logo3.png" /></a>
+            <div id="clickMenu">
+              <i class="bx bx-menu" onclick="changeIcon(this)"></i>
+            </div>
+          </div>
+          <div class="nav_content">
+            <div class="nav_item">
+              <div class="nav_anchorDiv">
+                <div class="nav_anchors">
+                  <a href="index.html">Home</a>
+                </div>
+                <div class="nav_anchors">
+                  <a href="javascript:void(0)">Explore</a>
+                  <div class="dropdown">
+                    <a href="#">Our Animals</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Conservation</a>
+                    <a href="#">Our Blog</a>
+                    <a href="#">Guiding Tours</a>
+                    <a href="#">Attractions</a>
+                    <a href="index.html#zooMap">Zoo Map</a>
+                  </div>
+                </div>
+                <div class="nav_anchors">
+                  <a href="javascript:void(0)">Events</a>
+                  <div class="dropdown">
+                    <a href="#">Youth Programs</a>
+                    <a href="#">Upcoming Events</a>
+                    <a href="#">School Events</a>
+                    <a href="#">Zoo Camps</a>
+                  </div>
+                </div>
+                <div class="nav_anchors">
+                  <a href="javascript:void(0)">Donate</a>
+                  <div class="dropdown">
+                    <a href="#">Donate to Society</a>
+                    <a href="#">Donate to Conservation</a>
+                    <a href="#">Planned Giving</a>
+                    <a href="#">Volunteer at the Zoo</a>
+                  </div>
+                </div>
+                <div class="nav_anchors">
+                  <a href="javascript:void(0)">About</a>
+                  <div class="dropdown">
+                    <a href="#">History</a>
+                    <a href="#">Future Plans</a>
+                    <a href="#">Jobs/Internships</a>
+                    <a href="#">Leadership</a>
+                    <a href="#">Membership Information</a>
+                    <a href="#">Membership FAQ</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Privacy Policy</a>
+                  </div>
+                </div>
+                <div class="nav_anchors">
+                  <a href="contact.html" id="noBorder">Contact</a>
+                </div>
+              </div>
+              <div class="nav_search">
+                <input type="search" placeholder="Type to search..." />
+              </div>
+            </div>
+            <div class="nav_links">
+              <a href="#">Login</a>
+              <a href="#">Signup</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Start of Fixed Bottom Navbar -->
+      <div class="bottom_navbar">
+        <div class="widthContainer">
+          <div class="bottom_frame">
+            <a href="#">Feedback</a>
+            <a href="#">Weather</a>
+          </div>
+        </div>
+      </div>
+      <!-- End of Fixed Bottom Navbar -->
+    </div>
+    <!-- End of Fixed Navbar -->
+    <!-- Start of Social Media Links -->
+    <div class="social_links">
+      <a href="#"> <i class="bx bxl-whatsapp"></i></a>
+      <a href="#"><i class="bx bxl-facebook"></i></a>
+      <a href="#"><i class="bx bxl-linkedin"></i></a>
+      <a href="#"><i class="bx bxl-instagram"></i></a>
+    </div>
+    <!-- End of Social Media Links  -->
+
+    <!-- Start of Main Content DIV -->
+    <div class="slideContainer widthContainer">
+      <div class="container">
+        <div class="slide">
+          <div
+            class="item"
+            style="
+              background-image: linear-gradient(#00000022),
+                url(https://lionalert.org/wp-content/uploads/2020/01/Where-do-lions-live.jpeg);
+            "
+          >
+            <div class="content">
+              <div class="name">Lions</div>
+              <div class="des">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab,
+                eum!
+              </div>
+              <button onclick="openMap()">See Map</button>
+            </div>
+          </div>
+          <div
+            class="item"
+            style="
+              background-image: linear-gradient(#00000022),
+                url(https://static.vecteezy.com/system/resources/thumbnails/048/340/886/small_2x/black-panther-in-animal-forest-black-jaguar-hunting-panther-hunting-jaguar-panther-wilderness-nature-close-photo.jpg);
+            "
+          >
+            <div class="content">
+              <div class="name">Black Jaguar</div>
+              <div class="des">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab,
+                eum!
+              </div>
+              <button onclick="openMap()">See Map</button>
+            </div>
+          </div>
+          <div
+            class="item"
+            style="
+              background-image: linear-gradient(#00000022),
+                url(https://www.fauna-flora.org/wp-content/uploads/2023/05/rhino_shutterstock_60362779-scaled-e1655220982564.jpg);
+            "
+          >
+            <div class="content">
+              <div class="name">Rhinoceros</div>
+              <div class="des">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab,
+                eum!
+              </div>
+              <button onclick="openMap()">See Map</button>
+            </div>
+          </div>
+          <div
+            class="item"
+            style="
+              background-image: linear-gradient(#00000022),
+                url(https://www.usatoday.com/gcdn/authoring/authoring-images/2024/02/22/USAT/72702898007-c-9272-be-85-a-1046-c-98-aeaf-9-cb-61-cf-03-f-11.jpeg);
+            "
+          >
+            <div class="content">
+              <div class="name">Elephant</div>
+              <div class="des">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab,
+                eum!
+              </div>
+              <button onclick="openMap()">See Map</button>
+            </div>
+          </div>
+          <div
+            class="item"
+            style="
+              background-image: linear-gradient(#00000022),
+                url(https://res.cloudinary.com/enchanting/q_70,f_auto,w_1024,h_683,c_fit/quark-web/2024/09/King_Penguin_michellesole-4742-1.jpg);
+            "
+          >
+            <div class="content">
+              <div class="name">Penguins</div>
+              <div class="des">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab,
+                eum!
+              </div>
+              <button onclick="openMap()">See Map</button>
+            </div>
+          </div>
+          <div
+            class="item"
+            style="
+              background-image: linear-gradient(#00000022),
+                url(https://www.pbs.org/wnet/nature/files/2020/07/carles-rabada-v3v6uz-n-pQ-unsplash-scaled.jpg);
+            "
+          >
+            <div class="content">
+              <div class="name">Kangaroo</div>
+              <div class="des">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab,
+                eum!
+              </div>
+              <button onclick="openMap()">See Map</button>
+            </div>
+          </div>
+          <div
+            class="item"
+            style="
+              background-image: linear-gradient(#00000022),
+                url(https://www.zoopraha.cz/images/foto_1.jpg);
+            "
+          >
+            <div class="content">
+              <div class="name">Gorilla</div>
+              <div class="des">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab,
+                eum!
+              </div>
+              <button onclick="openMap()">See Map</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="button">
+          <button class="prev"><i class="bx bx-left-arrow-alt"></i></button>
+          <button class="next"><i class="bx bx-right-arrow-alt"></i></button>
+        </div>
+      </div>
+    </div>
+    <!-- End of Main Content DIV -->
+
+    <!-- Start of Zoo Map -->
+    <!-- <div class="viewMap">
+      <button onclick="openMap()">VIEW MAP</button>
+    </div>
+    <div class="map" id="map">
+      <i class="bx bx-x" onclick="closeMap()"></i>
+      <img src="images/map2.png" />
+    </div> -->
+    <!-- End of Zoo Map -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
