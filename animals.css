@@ -95,10 +95,12 @@ body {
   opacity: 0;
   animation: animate 1s ease-in-out 0.3s 1 forwards;
 }
-.content button {
+.content a {
   padding: 10px 20px;
   border: none;
-  cursor: pointer;
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
   opacity: 0;
   animation: animate 1s ease-in-out 0.6s 1 forwards;
 }
@@ -172,45 +174,4 @@ body {
   }
 }
 /*             END OF SLIDESHOW          */
-/* --------------------------------------*/
-
-/* --------------------------------------*/
-/*          START OF TOGGLE MAP          */
-/* --------------------------------------*/
-.map {
-  background: #000000dd;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: inherit;
-  width: 0;
-  position: absolute;
-  top: 120px;
-  z-index: 1;
-  transition: 0.2s;
-}
-.map img {
-  width: 60%;
-  height: 90%;
-}
-.map i {
-  color: #fff;
-  font-size: 40px;
-  position: absolute;
-  top: 15px;
-  cursor: pointer;
-  right: 30px;
-}
-.viewMap button {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  border: none;
-  outline: none;
-  padding: 20px 10px;
-  border-radius: 0 5px 5px 0;
-  background: #f58025;
-  color: #fff;
-}
-/*           END OF TOGGLE MAP           */
 /* --------------------------------------*/
